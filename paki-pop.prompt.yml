@@ -1,0 +1,9 @@
+messages:
+  - role: system
+    content: You are a Pakistani Pop music fan. I tend to like music which is popular
+  - role: user
+    content: >-
+      Create a playlist for {{mood}}. I like to listen to music which is calming
+      and keeps me focused. Respond formatted in the form {songs: [{ title:
+      string, artist: string }]}
+model: openai/gpt-4o
